@@ -9,11 +9,17 @@ https://ifttt.com/maker_webhooks
 The following example shows you how to send a HTTP POST request to your AWS account at specific times everyday, and log this information to AWS DynamoDB. 
 The setup involves the following steps: 
 
-1. IFTTT Setup 
-2. IFTTT Applet Creation 
-3. AWS RESTful API Development 
-4. AWS Lambda Development 
-5. AWS DynamoDB Development 
+1. AWS RESTful API Development 
+2. AWS Lambda Development 
+3. AWS DynamoDB Development 
+4. IFTTT Setup 
+
+＃4. IFTTT Setup 
+See Instructions on how to create IFTTT Applets 
+https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-
+
+In this case we will use the Date+Time service as the trigger:
+![alt text](https://raw.githubusercontent.com/aoifem1/IFTTT_to_AWS/Images/img.png)
 
 
 
