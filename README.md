@@ -20,7 +20,7 @@ https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-
 
 In this case we will use the Date+Time service as the trigger:
 
-![alt text](IFTTT_to_AWS/IFTTT Trigger 1.PNG)
+![alt text](IFTTT_to_AWS/IFTTT Trigger 1.png)
 
 
 
