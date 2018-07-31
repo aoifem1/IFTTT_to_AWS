@@ -15,6 +15,12 @@ The setup involves the following steps:
 3. AWS DynamoDB Development 
 4. IFTTT Setup 
 
+# 1. AWS RESTful API Development 
+
+# 2. AWS Lambda
+ 
+# 3. AWS DynamoDB
+
 # 4. IFTTT Setup
 See Instructions on how to create IFTTT Applets
 
