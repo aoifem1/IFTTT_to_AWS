@@ -20,9 +20,12 @@ See Instructions on how to create IFTTT Applets
 https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-
 
 In this case we will use the Date+Time service as the trigger ('IF this'):
+
 ![alt text](IFTTTTrigger2.PNG)
 
 Select the Webhooks service as the action ('THEN that'):
+
+![alt text](IFTTTAction1.PNG)
 
 
 
