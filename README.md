@@ -29,6 +29,7 @@ Select the Webhooks service as the action ('THEN that'):
 ![alt text](IFTTTAction1.PNG)
 
 - **'URL'**: The endpoint of your AWS API Gateway received above. The type of HTTP request we are using is 'POST'.
+- **Method Type** : The HTTP method type we are using in this example is POST
 - **Content Type**: If you wish to add information from the trigger (i.e. Date+Time service), or add your own JSON code, then select 'application/json'. 
 - **'Body'** will contain the JSON file you wish to send to AWS. If you want to send data from the 3rd party app instead, then select *'add ingredient'* button. 
 
