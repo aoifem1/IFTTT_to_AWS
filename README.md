@@ -14,7 +14,7 @@ The setup involves the following steps:
 3. AWS DynamoDB Development 
 4. IFTTT Setup 
 
-＃4. IFTTT Setup 
+＃4 IFTTT Setup 
 See Instructions on how to create IFTTT Applets 
 https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-
 
