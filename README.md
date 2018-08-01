@@ -19,7 +19,7 @@ The setup involves the following steps:
 # 2. AWS Lambda
 - Copy the code 'HTTP_POST_Simple' , into the Lambda console. 
 - Make sure the console is setup to use Node.js. 
-- Change the IAM Permissions to allow API Gateway to communicate with AWS Lambda 
+- Change the IAM Permissions to allow API Gateway to communicate with AWS Lambda. The settings can be found at the bottom of the Lambda console:
 
 ![alt text](IAMper.png)
 
