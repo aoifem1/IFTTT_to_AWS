@@ -17,7 +17,14 @@ The setup involves the following steps:
 # 1. AWS RESTful API Development 
 
 # 2. AWS Lambda
- 
+- Copy the code 'HTTP_POST_Simple' , into the Lambda console. 
+- Make sure the console is setup to use Node.js. 
+- Change the IAM Permissions to allow API Gateway to communicate with AWS Lambda 
+
+![alt text](IAMper.PNG)
+
+- The code can be tested using the 'Test' tab in API Gateway or AWS Lambda 
+
 # 3. IFTTT Setup
 See Instructions on how to create IFTTT Applets
 
