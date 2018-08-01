@@ -7,21 +7,18 @@ Webhooks in an IFTTT service to send a receive HTTP requests to a destination of
 
 https://ifttt.com/maker_webhooks
 
-The following example shows you how to send a HTTP POST request to your AWS account at specific times everyday, and log this information to AWS DynamoDB. 
+The following example shows you how to send a HTTP POST request to your AWS account at specific times everyday, and print this information to console. 
 The setup involves the following steps: 
 
 1. AWS RESTful API Development 
 2. AWS Lambda Development 
-3. AWS DynamoDB Development 
-4. IFTTT Setup 
+3. IFTTT Setup 
 
 # 1. AWS RESTful API Development 
 
 # 2. AWS Lambda
  
-# 3. AWS DynamoDB
-
-# 4. IFTTT Setup
+# 3. IFTTT Setup
 See Instructions on how to create IFTTT Applets
 
 https://help.ifttt.com/hc/en-us/articles/115010361388-How-do-I-create-an-Applet-
