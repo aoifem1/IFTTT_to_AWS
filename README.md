@@ -21,7 +21,7 @@ The setup involves the following steps:
 - Make sure the console is setup to use Node.js. 
 - Change the IAM Permissions to allow API Gateway to communicate with AWS Lambda 
 
-![alt text](IAMper.PNG)
+![alt text](Images/IAMper.PNG)
 
 - The code can be tested using the 'Test' tab in API Gateway or AWS Lambda 
 
