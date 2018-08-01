@@ -10,13 +10,13 @@ https://ifttt.com/maker_webhooks
 The following example shows you how to send a HTTP POST request to your AWS account at specific times everyday, and print this information to console. 
 The setup involves the following steps: 
 
-1. AWS RESTful API Development 
-2. AWS Lambda Development 
+1. AWS Lambda Development 
+2. AWS RESTful API Development 
 3. IFTTT Setup 
 
-# 1. AWS RESTful API Development 
 
-# 2. AWS Lambda
+# 1. AWS Lambda
+- Open the AWS Lambda console under your account
 - Copy the code 'HTTP_POST_Simple' , into the Lambda console. 
 - Make sure the console is setup to use Node.js. 
 - Change the IAM Permissions to allow API Gateway to communicate with AWS Lambda. The settings can be found at the bottom of the Lambda console:
@@ -24,6 +24,11 @@ The setup involves the following steps:
 ![alt text](IAMper.png)
 
 - The code can be tested using the 'Test' tab in API Gateway or AWS Lambda 
+
+# 2. AWS RESTful API Development 
+- Open the AWS API Gateway console in your AWS account 
+- The RESTful API setup in this example uses AWS API Gateway 'proxy' settings 
+- This means the JSON file received from IFTTT is sent to AWS Lambda as it was received by the gateway. (i.e. with no changes made to the file) 
 
 # 3. IFTTT Setup
 See Instructions on how to create IFTTT Applets
@@ -38,7 +43,7 @@ Select the Webhooks service as the action ('THEN that'):
 
 ![alt text](IFTTTAction1.PNG)
 
-- **'URL'**: The endpoint of your AWS API Gateway received above. The type of HTTP request we are using is 'POST'.
+- **'URL'**: The endpoint of your AWS API Gateway received above. 
 - **Method Type** : The HTTP method type we are using in this example is POST
 - **Content Type**: If you wish to add information from the trigger (i.e. Date+Time service), or add your own JSON code, then select 'application/json'. 
 - **'Body'** will contain the JSON file you wish to send to AWS. If you want to send data from the 3rd party app instead, then select *'add ingredient'* button. 
