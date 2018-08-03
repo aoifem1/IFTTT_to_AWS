@@ -34,26 +34,40 @@ The setup involves the following steps:
 
 ![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw2.PNG)
 
+
 - A new window will open as below. Select the 'Action' button, and press 'Create Resource':
 
 ![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw3.PNG)
+
 
 - Enter a name for the resource and click 'Create Resource'. Do not check any of the boxes on this page: 
 
 ![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw4.PNG)
 
+
 - Back on the main page, click the 'Action' button again and select 'Create Method': 
 
 ![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw3.PNG)
 
+
 - Choose 'Post' as the method type, and setup the method as below. 
 - The RESTful API setup in this example uses AWS API Gateway 'proxy' settings 
 - This means the JSON file received from IFTTT is sent to AWS Lambda as it was received by the gateway. (i.e. with no changes made to the file) 
-- Be sure to check this box in the settings: 
+- Be sure to check this box in the settings
+- Enter the name of the Lambda function you want to send the IFTTT JSON file to and click 'save'. 
 
 ![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw5.PNG)
 
 
+- Go back to the AWS Lambda console. 
+- The console should look something like as follows. 
+- If the API gateway does not appear as below, you need to change the IAM permissions to allow AWS Lambda to link to AWS API Gateway
+- Select API Gateway 
+
+![alt text](https://github.com/aoifem1/IFTTT_to_AWS/blob/master/Images/AWSgw6.PNG)
+
+- Scroll down to the bottom of the screen to find your API Gateway Endpoint. 
+- Save this URL address, as it will be needed in the next step 
 
 # 3. IFTTT Setup
 See Instructions on how to create IFTTT Applets
