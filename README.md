@@ -1,5 +1,6 @@
 # IFTTT to AWS (POST Request)
 How to send information from a 3rd party app to your AWS account using IFTTT webhooks. 
+Uses HTTP POST Request to display a JSON file from IFTTT to your AWS console.
 
 # Background 
 IFTTT is a service which allows you to connect any two IFTTT registered apps (called IFTTT services) together.
